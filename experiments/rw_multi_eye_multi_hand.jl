@@ -150,7 +150,9 @@ end
 
 
 #folder = "/rw_processed_undistorted"
-folder = "/rw2_processed_2_subfolder"
-dataset = "/set1"
+# folder = "/rw2_processed_2_subfolder"
+# dataset = "/set1"
+folder = "/real-world"
+dataset = "/combined"
 solution = process_data(folder, dataset);
 #solution_mtx = hcat(reshape(solution[3*(6)+1:12*(6)], 6, 9),reshape(solution[1:3*(6)], m+n, 3))
